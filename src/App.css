@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +38,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counterClimate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  
+}
+
+.temp{
+  display: flex;
+ 
+}
+
+.temp img{
+  display: block;
+  margin: auto;
+  }
+  
+.temp div{
+  width: 100%;
+}
+
+.temp p{
+  text-align: center;
+}
+
+.temp h2{
+  margin-top: -1rem;
+  text-align: center;
+}
+
+button{
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
